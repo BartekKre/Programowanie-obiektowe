@@ -39,8 +39,8 @@ public class Z2 {
         System.out.println("Wynik 4: " + result4);
 
         // 5. Operacja na długościach nazwiska i imienia
-        String nazwisko = "Kowalski";
-        String imie = "Jan";
+        String nazwisko = "Krejer";
+        String imie = "Bartłomiej";
         int nazwiskoLength = nazwisko.length();
         int imieLength = imie.length();
         int result5 = (nazwiskoLength % imieLength) + 1;

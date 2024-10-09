@@ -2,6 +2,7 @@ import java.util.Scanner;
 import java.lang.Math;
 
 public class Z2 {
+    
     public static void zad1() {
         System.out.println("23.0+76: " + (23.0 + 76) + " -> typ: double");
         System.out.println("41*2.0+3: " + (41*2.0+3) + " -> typ: double");

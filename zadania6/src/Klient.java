@@ -39,4 +39,8 @@ public class Klient {
         }
         return suma;
     }
+
+    public List<Zamowienie> getListaZamowien() {
+        return listaZamowien;
+    }
 }

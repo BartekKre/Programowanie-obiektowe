@@ -12,14 +12,14 @@ public class Z6 {
         sklep.dodajProdukt(laptop);
         sklep.dodajProdukt(myszka);
 
-        sklep.wyswietl1Oferte();
+        sklep.wyswietlOferte();
 
         //KLIENT
         Klient klient = new Klient("Konstanty", "Mącipałka");
         sklep.zakupy(klient, "Laptop", 2);
         sklep.zakupy(klient, "Myszka", 5);
 
-        klient.wyswietlHistorieZamowien();
+        Zamowienie zamowienie = klient.getListaZamowien();
 
         System.out.println("Laczny koszt zamowien: " + klient.obliczLacznyKosztZamowien() + "zł");
     }

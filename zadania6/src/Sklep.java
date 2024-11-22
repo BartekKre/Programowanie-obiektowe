@@ -13,7 +13,7 @@ public class Sklep {
         System.out.println("Dodano produkt do sklepu: " + produkt.getNazwa());
     }
 
-    public void wyswietl1Oferte(){
+    public void wyswietlOferte(){
         System.out.println("Oferta sklepu: ");
         for (Produkt produkt : produkty) {
             System.out.println("- " + produkt.getNazwa() + " | Cena: "

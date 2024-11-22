@@ -15,4 +15,12 @@ public class Platnosc {
     public String getStatusPlatnosci() {
         return statusPlatnosci;
     }
+
+    public double getKwota() {
+        return kwota;
+    }
+
+    public void setKwota(double kwota) {
+        this.kwota = kwota;
+    }
 }

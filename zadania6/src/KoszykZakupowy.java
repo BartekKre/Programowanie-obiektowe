@@ -35,4 +35,7 @@ public class KoszykZakupowy {
         }
         return suma;
     }
+    public List<Produkt> getProdukty() {
+        return produkty;
+    }
 }

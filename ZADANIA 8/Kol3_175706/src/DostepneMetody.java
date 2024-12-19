@@ -1,0 +1,3 @@
+interface DostepneMetody {
+    void wyswietlInformacje();
+}
